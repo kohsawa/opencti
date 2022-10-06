@@ -3051,7 +3051,7 @@ const i18n = {
         'Create `indicates` relationships between indicators and the selected threat, then add all relations to the container.',
     },
     'ja-jp': {
-      /*** BEGIN ***/
+      /*** BEGIN ima ***/
       // Titles
       'OpenCTI - Cyber threat intelligence platform':
         'OpenCTI - Plataforma de ciberinteligencia de amenazas',
@@ -3489,8 +3489,8 @@ const i18n = {
       'Add subsectors': 'Añadir subsectores',
       'Add sub attack patterns': 'Añadir subpatrones de ataque',
       'Add attack patterns': 'Añadir patrones de ataque',
-      /*** END ***/
-      /*** BEGIN ***/
+      /*** END ima ***/
+      /*** BEGIN sawa ***/
       'Add entities': 'Añadir entidades',
       'Add observables': 'Añadir observables',
       'Add observable': 'Añadir un observable',
@@ -3863,8 +3863,8 @@ const i18n = {
       'Element will be rescan with all compatible activated rules':
         'El elemento será reescaneado con todas las reglas compatibles activadas',
       'Launch a background task': 'Lanzar una tarea en segundo plano',
-      /*** END ***/
-      /*** BEGIN ***/
+      /*** END sawa ***/
+      /*** BEGIN kubo ***/
       'Take deletions into account': 'Tener en cuenta los borrados',
       'Avoid dependencies resolution': 'Evitar resolución de dependencias',
       Initiator: 'Iniciador',
@@ -4226,8 +4226,8 @@ const i18n = {
       'Most recent history': 'Historial más reciente',
       All: 'Todas',
       Clear: 'Borrar',
-      /*** END ***/
-      /*** BEGIN ***/
+      /*** END kubo ***/
+      /*** BEGIN mina ***/
       'Clear filters': 'Limpiar los filtros',
       'has updated the field': 'ha modificado el campo',
       'with the value': 'con el valor',
@@ -4597,7 +4597,7 @@ const i18n = {
       agree: 'de acuerdo',
       'suggestion_threats-indicators':
         'La acción de crear `indica` reñacopmes emtre los indicadores y la amenaza seleccionada, después añade todas las relaciones al contenedor.',
-      /*** END ***/
+      /*** END mina ***/
     },
     'zh-cn': {
       // Titles
