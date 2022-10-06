@@ -18,6 +18,7 @@ const localeMap = {
   'en-us': enLocale,
   'fr-fr': frLocale,
   'es-es': esLocale,
+  'ja-jp': jp1Locale,
   'zg-cn': cnLocale,
 };
 
@@ -43,6 +44,8 @@ const AppIntlProvider = (props) => {
     moment.locale('fr-fr');
   } else if (lang === 'es-es') {
     moment.locale('es-es');
+  } else if (lang === 'ja-jp') {
+    moment.locale('ja-jp');
   } else if (lang === 'zh-cn') {
     moment.locale('zh-cn');
   } else {
