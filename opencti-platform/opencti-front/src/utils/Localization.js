@@ -3085,7 +3085,7 @@ const i18n = {
       Active: 'アクティブ',
       'Last update': '最終更新',
       'Create a file': 'ファイルを作成',
-      'Infrastructure types': 'インフラストラクチャタイプ',
+      'Infrastructure types': 'インフラストラクチャ種別',
       Progress: '進捗',
       errors: 'エラー',
       State: '状態',
@@ -3104,7 +3104,7 @@ const i18n = {
       'Do you want to delete this group?':
         'このグループを削除しますか？',
       'Do you want to delete this threat actor?':
-        'この脅威アクタを削除しますか？',
+        'この脅威アクターを削除しますか？',
       'Do you want to delete this intrusion set?':
         'この侵入セットを削除しますか？',
       'Do you want to delete this campaign?':
@@ -3117,7 +3117,7 @@ const i18n = {
       'Do you want to delete this malware?':
         'このマルウェアを削除しますか？',
       'Do you want to delete this marking definition?':
-        'この分類を削除しますか？',
+        'このデータマーキング(TLP)を削除しますか？',
       'Do you want to delete this kill chain phase?':
         'このキルチェーンフェーズを削除しますか？',
       'Do you want to delete this report?':
@@ -3135,7 +3135,7 @@ const i18n = {
       'Do you want to delete this city?':
         'この都市を削除しますか？',
       'Do you want to delete this sector?':
-        'このセクタを削除しますか？',
+        'このセクターを削除しますか？',
       'Do you want to delete this system?':
         'このシステムを削除しますか？',
       'Do you want to delete this organization?':
@@ -3151,7 +3151,7 @@ const i18n = {
       'Do you want to delete this widget?':
         'このウィジェットを削除しますか？',
       'Do you want to delete this attack pattern?':
-        'このアタックパターンを削除しますか？',
+        'この攻撃パターンを削除しますか？',
       'Do you want to delete this course of action?':
         'この行動指針を削除しますか？',
       'Do you want to delete this tool?':
@@ -3178,7 +3178,7 @@ const i18n = {
       'Do you want to remove these elements from this investigation?':
         '調査内容からこれらの要素を削除しますか？',
       'Do you want to remove this opinion?':
-        'この意見を削除しますか？',
+        'このオピニオンを削除しますか？',
       'Do you want to remove the observable from this indicator?':
         'このインジケータから観測結果を削除しますか？',
       'Do you want to remove the entity from this container?':
@@ -3250,7 +3250,7 @@ const i18n = {
       'Granted by default at user creation':
         'ユーザ作成時にデフォルトで付与',
       'Automatically authorize this group to new marking definition':
-        'このグループに新しい分類を自動的に適用する',
+        'このグループに新しいデータマーキング(TLP)を自動的に適用する',
       'Unauthorized action, please refresh your browser':
         '不正な操作です。ブラウザを更新してください',
       Capabilities: '能力',
@@ -3267,7 +3267,7 @@ const i18n = {
       'Dark (with background)': '暗 (背景有り)',
       'Dark (without background)': '暗 (背景無し)',
       Language: '言語',
-      'Hidden entity types': '非表示のエンティティタイプ',
+      'Hidden entity types': '非表示のエンティティ種別',
       'Dark theme': 'ダークテーマ',
       'Light theme': 'ライトテーマ',
       'Background color': '背景色',
@@ -3285,8 +3285,8 @@ const i18n = {
       'Not aplicable': '適用不可',
       Roles: 'Roles',
       Subsectors: '下位部門',
-      'Sub attack patterns': '下位アタックパターン',
-      'Parent attack patterns': '上位アタックパターン',
+      'Sub attack patterns': '下位攻撃パターン',
+      'Parent attack patterns': '上位攻撃パターン',
       'Parent sectors': '上位部門',
       Subregions: '下位地域',
       'Parent regions': '上位地域',
@@ -3319,7 +3319,7 @@ const i18n = {
       'auto:': '自動 :',
       'Import data': 'インポート対象データ',
       'Import successfully asked': 'インポート要求を正常に受け付けました',
-      'Import type': 'インポートタイプ',
+      'Import type': 'インポート種別',
       'STIX2 bundle': 'STIX2バンドル',
       'File to import': 'インポートするファイル',
       'Associated file': '関連ファイル',
@@ -3373,8 +3373,8 @@ const i18n = {
       'Update an artifact': 'アーティファクトを更新',
       'Create an infrastructure': 'インフラストラクチャを作成',
       'Update an infrastructure': 'インフラストラクチャを更新',
-      'Create a threat actor': '脅威アクタを作成',
-      'Update a threat actor': '脅威アクタを更新',
+      'Create a threat actor': '脅威アクターを作成',
+      'Update a threat actor': '脅威アクターを更新',
       'Create an intrusion set': '侵入セットを作成',
       'Update an intrusion set': '侵入セットを更新',
       'Create a campaign': 'キャンペーンを作成',
@@ -3383,8 +3383,8 @@ const i18n = {
       'Update an incident': 'インシデントを更新',
       'Create a malware': 'マルウェアを作成',
       'Update a malware': 'マルウェアを更新',
-      'Create a channel': 'チャンネルを作成',
-      'Update a channel': 'チャンネルを更新',
+      'Create a channel': 'チャネルを作成',
+      'Update a channel': 'チャネルを更新',
       'Create a narrative': 'ナラティブを作成',
       'Update a narrative': 'ナラティブを更新',
       'Create an observed data': '観測データを作成',
@@ -3400,7 +3400,7 @@ const i18n = {
       'Knowledge update (except indicators & observables)':
         'ナレッジベースを更新（インジケータと観測結果を除く）',
       'Containers (reports, notes & opinions)':
-        'コンテナ（レポート、ノート & 意見）',
+        'コンテナ（レポート、ノート & オピニオン）',
       Containers: 'コンテナ',
       'Technical elements (indicators & observables)':
         '技術的要素（インジケータ & 観測結果）',
@@ -3422,9 +3422,9 @@ const i18n = {
       'Aliases separated by commas': 'カンマで区切られた別名',
       Alias: '別名',
       'Entity aliases': 'エンティティの別名',
-      'Create a marking definition': '分類を作成',
-      'Update a marking definition': '分類を更新',
-      'Marking definitions': '分類',
+      'Create a marking definition': 'データマーキング(TLP)を作成',
+      'Update a marking definition': 'データマーキング(TLP)を更新',
+      'Marking definitions': 'データマーキング(TLP)',
       'Max marking definition level': '分類レベルの最大値',
       'Create a label': 'ラベルを作成',
       'Update a label': 'ラベルを更新',
@@ -3436,8 +3436,8 @@ const i18n = {
       'Update a region': '地域を更新',
       'Create a country': '国を作成',
       'Update a country': '国を更新',
-      'Create a sector': 'セクタを作成',
-      'Update a sector': 'セクタを更新',
+      'Create a sector': 'セクターを作成',
+      'Update a sector': 'セクターを更新',
       'Create a system': 'システムを作成',
       'Update a system': 'システムを更新',
       'Create a city': '都市を作成',
@@ -3448,8 +3448,8 @@ const i18n = {
       'Update a individual': '個人を更新',
       'Create an external reference': '外部参照を作成',
       'Update an external reference': '外部参照を更新',
-      'Create an attack pattern': 'アタックパターンを作成',
-      'Update an attack pattern': 'アタックパターンを更新',
+      'Create an attack pattern': '攻撃パターンを作成',
+      'Update an attack pattern': '攻撃パターンを更新',
       'Create a course of action': '行動指針を作成',
       'Update a course of action': '行動指針を更新',
       'Create a tool': 'ツールを作成',
@@ -3486,9 +3486,9 @@ const i18n = {
       'Add external references': '外部参照を追加',
       'Add notes': 'ノートを追加',
       'Add courses of action': '行動指針を追加',
-      'Add subsectors': '下位セクタを追加',
-      'Add sub attack patterns': '下位アタックパターンを追加',
-      'Add attack patterns': 'アタックパターンを追加',
+      'Add subsectors': '下位セクターを追加',
+      'Add sub attack patterns': '下位攻撃パターンを追加',
+      'Add attack patterns': '攻撃パターンを追加',
       /*** END ima ***/
       /*** BEGIN sawa ***/
       'Add entities': 'Añadir entidades',
