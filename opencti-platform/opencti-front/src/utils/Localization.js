@@ -3751,7 +3751,7 @@ const i18n = {
       'Fit graph to canvas': 'グラフを画面内に収める',
       'Filter entity types': 'エンティティ種別で絞り込む',
       'Filter authors (created by)': '作成者で絞り込む',
-      'Filter marking definitions': '分類で絞り込む',
+      'Filter marking definitions': 'データマーキングで絞り込む',
       'Select all nodes': 'すべてのノードを選択',
       'Select by entity type': 'エンティティ種別を指定して選択',
       'Add an entity to this container': 'ここにエンティティを追加する',
