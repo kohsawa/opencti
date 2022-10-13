@@ -3425,7 +3425,7 @@ const i18n = {
       'Create a marking definition': 'データマーキングを作成',
       'Update a marking definition': 'データマーキングを更新',
       'Marking definitions': 'データマーキング',
-      'Max marking definition level': '分類レベルの最大値',
+      'Max marking definition level': 'データマーキングレベルの最大値',
       'Create a label': 'ラベルを作成',
       'Update a label': 'ラベルを更新',
       'Create a kill chain phase': 'キルチェーンフェーズを作成',
