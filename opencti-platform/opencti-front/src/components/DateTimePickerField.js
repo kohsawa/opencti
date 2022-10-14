@@ -19,7 +19,7 @@ const dateTimeFormatsMapWithSeconds = {
   'en-us': 'yyyy-MM-dd hh:mm:ss a',
   'fr-fr': 'dd/MM/yyyy HH:mm:ss',
   'es-es': 'dd/MM/yyyy HH:mm:ss',
-  'ja-jp': 'yyyy/MM/dd hh:mm ss a',
+  'ja-jp': 'yyyy/MM/dd hh:mm:ss a',
   'zg-cn': 'yyyy-MM-dd hh:mm:ss a',
 };
 
