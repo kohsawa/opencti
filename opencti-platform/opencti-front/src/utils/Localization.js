@@ -4298,7 +4298,7 @@ const i18n = {
       // Time
       '24h': '24時間',
       // Types
-      'All types of relationship': '全てのリレーションシップのタイプ',
+      'All types of relationship': '全てのリレーションシップの種別',
       entity_All: '全てのエンティティ',
       'entity_Stix-Domain-Object': 'エンティティ',
       'entity_Stix-Domain-Objects': 'エンティティ(複数)',
@@ -4376,7 +4376,7 @@ const i18n = {
       // Relations
       relationship_All: '全てのタイプのリレーション',
       relationship_object: '含む',
-      'relationship_x_opencti_linked-to': '関連がある',
+      'relationship_x_opencti_linked-to': '関連あり',
       relationship_to: 'to',
       relationship_from: 'from',
       relationship_cc: 'cc',
