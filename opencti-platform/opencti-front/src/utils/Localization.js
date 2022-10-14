@@ -3051,7 +3051,6 @@ const i18n = {
         'Create `indicates` relationships between indicators and the selected threat, then add all relations to the container.',
     },
     'ja-jp': {
-      /*** BEGIN ima ***/
       // Titles
       'OpenCTI - Cyber threat intelligence platform':
         'OpenCTI - サイバー脅威インテリジェンスプラットフォーム',
@@ -3489,8 +3488,6 @@ const i18n = {
       'Add subsectors': '下位セクターを追加',
       'Add sub attack patterns': '下位攻撃パターンを追加',
       'Add attack patterns': '攻撃パターンを追加',
-      /*** END ima ***/
-      /*** BEGIN sawa ***/
       'Add entities': 'エンティティの追加',
       'Add observables': '観測結果の追加',
       'Add observable': '観測結果の追加',
@@ -3863,8 +3860,6 @@ const i18n = {
       'Element will be rescan with all compatible activated rules':
         '要素はすべての互換性のある有効なルールで再スキャンされます',
       'Launch a background task': 'バックグラウンドタスクの起動',
-      /*** END sawa ***/
-      /*** BEGIN kubo ***/
       'Take deletions into account': '削除されたものを考慮する',
       'Avoid dependencies resolution': '依存関係の解消を避ける',
       Initiator: 'イニシエータ',
@@ -4226,8 +4221,6 @@ const i18n = {
       'Most recent history': '直近の履歴',
       All: 'すべて',
       Clear: 'クリア',
-      /*** END kubo ***/
-      /*** BEGIN mina ***/
       'Clear filters': 'フィルタのクリア',
       'has updated the field': '更新されたフィールド',
       'with the value': '値',
@@ -4597,7 +4590,6 @@ const i18n = {
       agree: '賛成',
       'suggestion_threats-indicators':
         'インジケータと脅威に `指し示す` のリレーションシップを作成したあと、全てのリレーションシップをコンテナに追加する。',
-      /*** END mina ***/
     },
     'zh-cn': {
       // Titles
