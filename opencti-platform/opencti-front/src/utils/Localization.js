@@ -3254,7 +3254,7 @@ const i18n = {
         '不正な操作です。ブラウザを更新してください',
       Capabilities: '能力',
       Title: 'タイトル',
-      'Sender email address': '送信者メールアドレス',
+      'Sender email address': 'メールアドレス',
       'Base URL': 'ベースURL',
       'No value': '値なし',
       Theme: 'テーマ',
